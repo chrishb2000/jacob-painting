@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Primary Meta Tags -->
+    <title>About Us | Jacob Brothers Painting | Family Owned Painting Contractors Since 1985</title>
+    <meta name="title" content="About Us | Jacob Brothers Painting | Family Owned Painting Contractors Since 1985">
+    <meta name="description" content="Learn about Jacob Brothers Painting - a family-owned professional painting contractor with over 20 years of European craftsmanship experience in Southern California.">
+    <meta name="keywords" content="about Jacob Brothers Painting, family owned painting contractor, Aris Ghazarian painter, European craftsmanship painting, Los Angeles painting company history">
+    <meta name="author" content="Jacob Brothers Painting">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.jacobbrotherspainting.com/about.html">
+    <meta property="og:title" content="About Us | Jacob Brothers Painting">
+    <meta property="og:description" content="Family-owned painting contractors since 1985. European craftsmanship, one job at a time.">
+    <meta property="og:image" content="https://www.jacobbrotherspainting.com/assets/images/aris-ghazarian-owner-painter.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.jacobbrotherspainting.com/about.html">
+    <meta property="twitter:title" content="About Us | Jacob Brothers Painting">
+    <meta property="twitter:description" content="Family-owned painting contractors since 1985. European craftsmanship, one job at a time.">
+    <meta property="twitter:image" content="https://www.jacobbrotherspainting.com/assets/images/aris-ghazarian-owner-painter.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.jacobbrotherspainting.com/about.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/jacob-brothers-logo.png">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Segoe+UI:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        .about-hero {
+            padding: 150px 0 80px;
+            background: linear-gradient(135deg, rgba(36, 63, 108, 0.9) 0%, rgba(36, 63, 108, 0.7) 100%), url('assets/images/residential-painting-expert.jpg') center/cover;
+            text-align: center;
+            color: white;
+            margin-top: 70px;
+        }
+        
+        .about-hero h1 {
+            color: white;
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        
+        .about-hero p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .story-section {
+            padding: 80px 0;
+        }
+        
+        .story-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+        
+        .story-image {
+            position: relative;
+        }
+        
+        .story-image img {
+            border-radius: 10px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+        
+        .story-image::before {
+            content: '';
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            width: 100%;
+            height: 100%;
+            border: 3px solid var(--accent-color);
+            border-radius: 10px;
+            z-index: -1;
+        }
+        
+        .story-content h2 {
+            margin-bottom: 25px;
+        }
+        
+        .story-content p {
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+        
+        .philosophy-section {
+            background: var(--light-gray);
+            padding: 80px 0;
+        }
+        
+        .philosophy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+        
+        .philosophy-card {
+            background: var(--white);
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            text-align: center;
+            transition: var(--transition);
+        }
+        
+        .philosophy-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .philosophy-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 25px;
+            color: var(--white);
+            font-size: 2rem;
+        }
+        
+        .philosophy-card h3 {
+            margin-bottom: 15px;
+        }
+        
+        .team-section {
+            padding: 80px 0;
+        }
+        
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .team-card {
+            text-align: center;
+        }
+        
+        .team-image {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+        }
+        
+        .team-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .team-card h3 {
+            margin-bottom: 5px;
+        }
+        
+        .team-card .role {
+            color: var(--accent-color);
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .values-section {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            padding: 80px 0;
+        }
+        
+        .values-section h2 {
+            color: white;
+        }
+        
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .value-item {
+            text-align: center;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .value-icon {
+            font-size: 2.5rem;
+            color: var(--accent-color);
+            margin-bottom: 15px;
+        }
+        
+        .value-item h4 {
+            color: white;
+            margin-bottom: 10px;
+        }
+        
+        .value-item p {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.95rem;
+        }
+        
+        .timeline-section {
+            padding: 80px 0;
+            background: var(--light-gray);
+        }
+        
+        .timeline {
+            max-width: 800px;
+            margin: 40px auto 0;
+            position: relative;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 3px;
+            height: 100%;
+            background: var(--primary-color);
+        }
+        
+        .timeline-item {
+            display: flex;
+            justify-content: flex-end;
+            padding: 20px 0;
+            position: relative;
+            width: 50%;
+        }
+        
+        .timeline-item:nth-child(even) {
+            justify-content: flex-start;
+            margin-left: 50%;
+        }
+        
+        .timeline-content {
+            background: var(--white);
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            max-width: 350px;
+            position: relative;
+        }
+        
+        .timeline-content::before {
+            content: '';
+            position: absolute;
+            top: 30px;
+            width: 15px;
+            height: 15px;
+            background: var(--accent-color);
+            border-radius: 50%;
+        }
+        
+        .timeline-item:nth-child(odd) .timeline-content::before {
+            right: -55px;
+        }
+        
+        .timeline-item:nth-child(even) .timeline-content::before {
+            left: -55px;
+        }
+        
+        .timeline-year {
+            font-weight: bold;
+            color: var(--accent-color);
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .story-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .timeline::before {
+                left: 20px;
+            }
+            
+            .timeline-item,
+            .timeline-item:nth-child(even) {
+                width: 100%;
+                margin-left: 0;
+                padding-left: 50px;
+                justify-content: flex-start;
+            }
+            
+            .timeline-content::before,
+            .timeline-item:nth-child(odd) .timeline-content::before,
+            .timeline-item:nth-child(even) .timeline-content::before {
+                left: -35px;
+                right: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/jacob-brothers-logo.png" alt="Jacob Brothers Painting Logo">
+                <span class="logo-text">Jacob Brothers Painting</span>
+            </a>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link" data-i18n="nav_home">Home</a></li>
+                <li><a href="about.html" class="nav-link active" data-i18n="nav_about">About Us</a></li>
+                <li><a href="services.html" class="nav-link" data-i18n="nav_services">Services</a></li>
+                <li><a href="portfolio.html" class="nav-link" data-i18n="nav_portfolio">Portfolio</a></li>
+                <li><a href="faq.html" class="nav-link" data-i18n="nav_faq">FAQ</a></li>
+                <li><a href="contact.html" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+                <li class="lang-switcher">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="es">ES</button>
+                </li>
+            </ul>
+            
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Hero -->
+    <section class="about-hero">
+        <div class="container">
+            <h1 data-i18n="about_title">About Jacob Brothers Painting</h1>
+            <p data-i18n="about_subtitle">Family Owned & Operated Since 1985</p>
+        </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="story-section section">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-image">
+                    <img src="assets/images/aris-ghazarian-owner-painter.jpg" alt="Aris Ghazarian - Jacob Brothers Painting Owner">
+                </div>
+                <div class="story-content">
+                    <h2>Our Story</h2>
+                    <p>Jacob Brothers' Painting got started by Father and Son in 1985 in Columbus, Ohio. Mainly painting high-end homes in the exclusive Arlington and Bexley neighborhoods, we built our reputation on quality work and attention to detail.</p>
+                    <p>Moving to Southern California has enabled the company to grow, and additionally do Commercial properties. We are a family-owned business and have been beautifying homes and businesses for over 20 years.</p>
+                    <p><strong>We do one job at a time and take the utmost pride in our work.</strong> Your satisfaction is our number one priority, and we treat every project as if it were our own home or business.</p>
+                    <p>Our team consists of painters from Eastern Europe with 10+ years in old-fashioned restorative painting. We support the practices and guidelines of the PDCA (Painting and Decorating Contractors of America), ensuring the highest standards in our industry.</p>
+                    <a href="contact.html" class="btn btn-primary" style="margin-top: 20px;">Get Free Estimate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Philosophy -->
+    <section class="philosophy-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Philosophy</h2>
+                <p>The principles that guide our work every day</p>
+            </div>
+            
+            <div class="philosophy-grid">
+                <div class="philosophy-card">
+                    <div class="philosophy-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Quality First</h3>
+                    <p>Our mission is to provide the best quality paint job and offer it in the most professional manner at a reasonable price.</p>
+                </div>
+                
+                <div class="philosophy-card">
+                    <div class="philosophy-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Customer Satisfaction</h3>
+                    <p>We want you to be fully satisfied when the job is done, and confidently recommend us to your friends and neighbors.</p>
+                </div>
+                
+                <div class="philosophy-card">
+                    <div class="philosophy-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Personal Care</h3>
+                    <p>Each project receives personal attention from the owner. We're not just painters; we're craftsmen who care.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Values -->
+    <section class="values-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Core Values</h2>
+                <p style="color: rgba(255, 255, 255, 0.8);">What sets us apart from other painting contractors</p>
+            </div>
+            
+            <div class="values-grid">
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h4>Family Owned</h4>
+                    <p>Handed down from Father to Son</p>
+                </div>
+                
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h4>European Craftsmanship</h4>
+                    <p>Old-world quality and techniques</p>
+                </div>
+                
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h4>One Job at a Time</h4>
+                    <p>Complete focus on your project</p>
+                </div>
+                
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4>Guaranteed Work</h4>
+                    <p>We stand behind what we do</p>
+                </div>
+                
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-broom"></i>
+                    </div>
+                    <h4>Clean & Tidy</h4>
+                    <p>Known as the neatest painters in LA</p>
+                </div>
+                
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h4>Reliable</h4>
+                    <p>On time, every time</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline -->
+    <section class="timeline-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Journey</h2>
+                <p>Milestones in our company history</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-year">1985</div>
+                        <h4>Founded in Columbus, Ohio</h4>
+                        <p>Jacob Brothers' Painting started as a father-son business painting high-end homes in Arlington and Bexley neighborhoods.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-year">1990s</div>
+                        <h4>Moved to Southern California</h4>
+                        <p>Expanded operations to California, bringing European craftsmanship to the West Coast.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-year">2000s</div>
+                        <h4>Commercial Division</h4>
+                        <p>Grew to include commercial properties while maintaining our residential excellence.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-year">Today</div>
+                        <h4>20+ Years of Excellence</h4>
+                        <p>Continuing our tradition of quality, one job at a time, with thousands of satisfied customers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Meet Our Team</h2>
+                <p>The skilled professionals behind our success</p>
+            </div>
+            
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="assets/images/aris-ghazarian-owner-painter.jpg" alt="Aris Ghazarian">
+                    </div>
+                    <h3>Aris Ghazarian</h3>
+                    <p class="role">Owner & President</p>
+                    <p>With over 20 years of painting experience, Aris personally supervises each project to ensure the highest quality standards.</p>
+                </div>
+                
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="assets/images/jacob-brothers-painting-team.jpg" alt="Our Painting Team">
+                    </div>
+                    <h3>Our Painters</h3>
+                    <p class="role">Skilled Craftsmen</p>
+                    <p>Our team consists of Eastern European painters with 10+ years of experience in old-fashioned restorative painting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" style="background: var(--light-gray); padding: 80px 0; text-align: center;">
+        <div class="container">
+            <h2 style="margin-bottom: 20px;">Ready to Work With Us?</h2>
+            <p style="max-width: 600px; margin: 0 auto 30px; color: #666;">Experience the Jacob Brothers difference. Contact us today for a free, no-obligation estimate.</p>
+            <div>
+                <a href="contact.html" class="btn btn-primary" style="margin-right: 15px;">Get Free Estimate</a>
+                <a href="tel:8003570775" class="btn btn-outline"><i class="fas fa-phone"></i> (800) 357-0775</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>About Us</h4>
+                    <p>Jacob Brothers' Painting is a family-owned professional painting contractor with over 20 years of European craftsmanship experience in Southern California.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-yelp"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-houzz"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Residential Painting</a></li>
+                        <li><a href="services.html">Commercial Painting</a></li>
+                        <li><a href="services.html">Interior Painting</a></li>
+                        <li><a href="services.html">Exterior Painting</a></li>
+                        <li><a href="services.html">Color Consultation</a></li>
+                        <li><a href="services.html">Drywall Repair</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> 6230 Wilshire Blvd. Suite #126, Los Angeles, CA 90048</li>
+                        <li><a href="tel:8003570775"><i class="fas fa-phone"></i> (800) 357-0775</a></li>
+                        <li><a href="mailto:arisghazarian@yahoo.com"><i class="fas fa-envelope"></i> arisghazarian@yahoo.com</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <p>Stay updated with our latest projects and special offers.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-yelp"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-houzz"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Jacob Brothers Painting. All Rights Reserved. | Designed with <i class="fas fa-heart" style="color: #e74c3c;"></i> by Christian Herencia</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- WhatsApp Button -->
+    <button class="whatsapp-btn" onclick="openWhatsApp()" aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat with us!</span>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>

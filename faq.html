@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Primary Meta Tags -->
+    <title>FAQ | Jacob Brothers Painting | Frequently Asked Questions About Painting Services</title>
+    <meta name="title" content="FAQ | Jacob Brothers Painting | Frequently Asked Questions About Painting Services">
+    <meta name="description" content="Find answers to frequently asked questions about our painting services. Learn about estimates, preparation, materials, and more from Jacob Brothers Painting.">
+    <meta name="keywords" content="painting FAQ, painting questions, how long painting estimate, painting preparation, paint contractor questions, Los Angeles painting FAQ">
+    <meta name="author" content="Jacob Brothers Painting">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.jacobbrotherspainting.com/faq.html">
+    <meta property="og:title" content="FAQ | Jacob Brothers Painting">
+    <meta property="og:description" content="Find answers to frequently asked questions about our professional painting services.">
+    <meta property="og:image" content="https://www.jacobbrotherspainting.com/assets/images/jacob-brothers-painting-team.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.jacobbrotherspainting.com/faq.html">
+    <meta property="twitter:title" content="FAQ | Jacob Brothers Painting">
+    <meta property="twitter:description" content="Find answers to frequently asked questions about our professional painting services.">
+    <meta property="twitter:image" content="https://www.jacobbrotherspainting.com/assets/images/jacob-brothers-painting-team.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.jacobbrotherspainting.com/faq.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/jacob-brothers-logo.png">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Segoe+UI:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        .faq-hero {
+            padding: 150px 0 80px;
+            background: linear-gradient(135deg, rgba(36, 63, 108, 0.9) 0%, rgba(36, 63, 108, 0.7) 100%), url('assets/images/interior-painting-contractor.jpg') center/cover;
+            text-align: center;
+            color: white;
+            margin-top: 70px;
+        }
+        
+        .faq-hero h1 {
+            color: white;
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        
+        .faq-hero p {
+            color: rgba(255, 255, 255, 0.9);
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .faq-search {
+            max-width: 600px;
+            margin: 40px auto 0;
+        }
+        
+        .faq-search input {
+            width: 100%;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 30px;
+            font-size: 1rem;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .faq-categories {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        
+        .faq-category-card {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            text-align: center;
+            cursor: pointer;
+            transition: var(--transition);
+            border: 2px solid transparent;
+        }
+        
+        .faq-category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--accent-color);
+        }
+        
+        .faq-category-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            color: var(--white);
+            font-size: 1.8rem;
+        }
+        
+        .faq-category-card h3 {
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+        
+        .faq-category-card p {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin: 0;
+        }
+        
+        .faq-main {
+            padding: 80px 0;
+            background: var(--light-gray);
+        }
+        
+        .faq-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .faq-item {
+            background: var(--white);
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            transition: var(--transition);
+        }
+        
+        .faq-item:hover {
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .faq-question {
+            padding: 25px 30px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            color: var(--primary-color);
+            font-size: 1.1rem;
+            transition: var(--transition);
+            background: var(--white);
+        }
+        
+        .faq-question:hover {
+            background: rgba(36, 63, 108, 0.05);
+        }
+        
+        .faq-icon {
+            width: 30px;
+            height: 30px;
+            background: var(--light-gray);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            color: var(--primary-color);
+            transition: var(--transition);
+            flex-shrink: 0;
+            margin-left: 15px;
+        }
+        
+        .faq-item.active .faq-icon {
+            background: var(--accent-color);
+            color: var(--white);
+            transform: rotate(45deg);
+        }
+        
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+        }
+        
+        .faq-item.active .faq-answer {
+            max-height: 1000px;
+        }
+        
+        .faq-answer-content {
+            padding: 0 30px 30px;
+            color: var(--text-light);
+            line-height: 1.8;
+            font-size: 1rem;
+        }
+        
+        .faq-answer-content p {
+            margin-bottom: 15px;
+        }
+        
+        .faq-answer-content ul {
+            margin: 15px 0;
+            padding-left: 20px;
+        }
+        
+        .faq-answer-content ul li {
+            margin-bottom: 8px;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        .faq-answer-content ul li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+        
+        .faq-highlight {
+            background: rgba(230, 126, 34, 0.1);
+            border-left: 4px solid var(--accent-color);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .faq-highlight strong {
+            color: var(--accent-color);
+        }
+        
+        .back-to-top-faq {
+            position: fixed;
+            bottom: 100px;
+            right: 100px;
+            background: var(--white);
+            border: 2px solid var(--border-color);
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--primary-color);
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            z-index: 998;
+            display: none;
+        }
+        
+        .back-to-top-faq.visible {
+            display: block;
+        }
+        
+        .back-to-top-faq:hover {
+            background: var(--primary-color);
+            color: var(--white);
+        }
+        
+        @media (max-width: 768px) {
+            .back-to-top-faq {
+                right: 80px;
+                bottom: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="logo">
+                <img src="assets/images/jacob-brothers-logo.png" alt="Jacob Brothers Painting Logo">
+                <span class="logo-text">Jacob Brothers Painting</span>
+            </a>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link" data-i18n="nav_home">Home</a></li>
+                <li><a href="about.html" class="nav-link" data-i18n="nav_about">About Us</a></li>
+                <li><a href="services.html" class="nav-link" data-i18n="nav_services">Services</a></li>
+                <li><a href="portfolio.html" class="nav-link" data-i18n="nav_portfolio">Portfolio</a></li>
+                <li><a href="faq.html" class="nav-link active" data-i18n="nav_faq">FAQ</a></li>
+                <li><a href="contact.html" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+                <li class="lang-switcher">
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="es">ES</button>
+                </li>
+            </ul>
+            
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- FAQ Hero -->
+    <section class="faq-hero">
+        <div class="container">
+            <h1 data-i18n="faq_title">Frequently Asked Questions</h1>
+            <p>Find answers to common questions about our painting services</p>
+            
+            <div class="faq-search">
+                <input type="text" id="faqSearch" placeholder="Search for answers..." onkeyup="filterFAQs()">
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Categories -->
+    <section class="section">
+        <div class="container">
+            <div class="faq-categories">
+                <div class="faq-category-card" onclick="scrollToCategory('general')">
+                    <div class="faq-category-icon">
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                    <h3>General Questions</h3>
+                    <p>Company info & basics</p>
+                </div>
+                
+                <div class="faq-category-card" onclick="scrollToCategory('estimates')">
+                    <div class="faq-category-icon">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                    </div>
+                    <h3>Estimates & Pricing</h3>
+                    <p>Quotes and payments</p>
+                </div>
+                
+                <div class="faq-category-card" onclick="scrollToCategory('process')">
+                    <div class="faq-category-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Process & Timeline</h3>
+                    <p>How we work</p>
+                </div>
+                
+                <div class="faq-category-card" onclick="scrollToCategory('preparation')">
+                    <div class="faq-category-icon">
+                        <i class="fas fa-paint-roller"></i>
+                    </div>
+                    <h3>Preparation & Cleanup</h3>
+                    <p>Before & after</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Main Content -->
+    <section class="faq-main" id="faq-main">
+        <div class="container">
+            <div class="faq-container">
+                <!-- General Questions -->
+                <div id="general">
+                    <h2 style="margin-bottom: 30px;">General Questions</h2>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Why hire a professional painting contractor?</span>
+                            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Before you decide to hire the least expensive painter you can find, or "do it yourself", here are important points to consider:</p>
+                                
+                                <div class="faq-highlight">
+                                    <strong>SAFETY</strong> - Painting can be hazardous work, whether it's working on a ladder or dealing with solvents and dust. Hiring a professional contractor means you don't have to worry about these problems.
+                                </div>
+                                
+                                <div class="faq-highlight">
+                                    <strong>HEALTH</strong> - If your home or business was built before 1978, it may have been painted with lead-based paint. Professional contractors will take appropriate steps to protect you and follow EPA recommendations.
+                                </div>
+                                
+                                <div class="faq-highlight">
+                                    <strong>PREPARATION & PAINTING</strong> - Getting the surface properly prepared makes all the difference. Professional contractors know the value of preparation and will do it right.
+                                </div>
+                                
+                                <div class="faq-highlight">
+                                    <strong>KNOWING PAINTS</strong> - The choices today are more complicated than just oil or latex, and professional contractors will know what works, how to use it, and will have the right tools for the job.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Are you licensed and insured?</span>
+                            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Yes, Jacob Brothers Painting is fully licensed and insured. We can provide copies of our insurance certificates upon request.</p>
+                                <p>We believe in complete transparency and want you to have peace of mind knowing that you're working with a legitimate, protected business.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>What areas do you serve?</span>
+                            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>We serve the greater Los Angeles area, including:</p>
+                                <ul>
+                                    <li>San Fernando Valley</li>
+                                    <li>Glendale</li>
+                                    <li>Burbank</li>
+                                    <li>Pasadena</li>
+                                    <li>Beverly Hills</li>
+                                    <li>Santa Monica</li>
+                                    <li>West Hollywood</li>
+                                    <li>And surrounding communities</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Do you offer color consultation?</span>
+                            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Absolutely! We offer professional color consultation services to help you choose the perfect colors for your space.</p>
+                                <p>With over 20 years of experience, we can provide expert advice on color combinations, finishes, and trends that will enhance your property's appearance and value.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Estimates & Pricing -->
+                <div id="estimates" style="margin-top: 50px;">
+                    <h2 style="margin-bottom: 30px;">Estimates & Pricing</h2>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>How long will it take to get a written bid from your company?</span>
+                            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p><strong>You'll get a detailed written bid within 48 hours</strong> of visiting your property.</p>
+                                <p>Our estimates include:</p>
+                                <ul>
+                                    <li>Detailed scope of work</li>
+                                    <li>Surface preparation details</li>
+                                    <li>Number of coats to be applied</li>
+                                    <li>Paint brands and types</li>
+                                    <li>Timeline for completion</li>
+                                    <li>Complete pricing breakdown</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Are your estimates free?</span>
+                            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Yes, all our estimates are completely free with no obligation.</p>
+                                <p>We believe in providing transparent, honest pricing upfront so you can make an informed decision about your painting project.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>What factors affect the cost of a painting project?</span>
+                            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Several factors can affect the final cost:</p>
+                                <ul>
+                                    <li>Size of the area to be painted</li>
+                                    <li>Condition of surfaces (repairs needed)</li>
+                                    <li>Number of coats required</li>
+                                    <li>Type and quality of paint selected</li>
+                                    <li>Accessibility (height, obstacles)</li>
+                                    <li>Preparation work needed</li>
+                                    <li>Timeline requirements</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Do you require a deposit?</span>
+                            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>For most residential projects, we do not require a large deposit. Payment terms are discussed during the estimate process and outlined in your written contract.</p>
+                                <p>We believe in earning your trust through our work, and payment schedules are structured to protect both parties.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Process & Timeline -->
+                <div id="process" style="margin-top: 50px;">
+                    <h2 style="margin-bottom: 30px;">Process & Timeline</h2>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>How many jobs do you work on at any given time?</span>
+                            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p><strong>We work on one job at a time.</strong></p>
+                                <p>This is one of the key differences that sets us apart. By focusing on one project at a time, we ensure:</p>
+                                <ul>
+                                    <li>Complete attention to your project</li>
+                                    <li>Faster completion time</li>
+                                    <li>Consistent crew presence</li>
+                                    <li>Direct owner supervision</li>
+                                    <li>Better communication</li>
+                                </ul>
+                                <p>Each job is supervised by a family member with over 20 years of painting experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>How long will my painting project take?</span>
+                            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Project timelines vary based on scope and conditions:</p>
+                                <ul>
+                                    <li><strong>Interior room:</strong> 1-2 days</li>
+                                    <li><strong>Whole house interior:</strong> 3-7 days</li>
+                                    <li><strong>Exterior home:</strong> 5-10 days</li>
+                                    <li><strong>Commercial projects:</strong> Varies by size</li>
+                                </ul>
+                                <p>We'll provide a detailed timeline in your written estimate and keep you informed of any changes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Will I need to be home during the painting?</span>
+                            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>For exterior projects, you don't need to be home as long as we have access to the property.</p>
+                                <p>For interior projects, we prefer someone to be home for the initial walkthrough and final walkthrough, but you don't need to be present during the actual painting. We're professional, respectful, and can work independently.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Preparation & Cleanup -->
+                <div id="preparation" style="margin-top: 50px;">
+                    <h2 style="margin-bottom: 30px;">Preparation & Cleanup</h2>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>How well do you protect the surroundings while the project is in progress?</span>
+                            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>We're known as <strong>"the neatest painters in Los Angeles"</strong> - we have the most shop vacs in town!</p>
+                                <p>Our protection process includes:</p>
+                                <ul>
+                                    <li>Covering all furniture with drop cloths</li>
+                                    <li>Protecting floors with canvas or plastic</li>
+                                    <li>Masking trim, windows, and hardware</li>
+                                    <li>Removing and covering outlet/switch plates</li>
+                                    <li>Protecting landscaping for exterior work</li>
+                                </ul>
+                                <p>After completion, all areas are vacuumed and moved items are replaced carefully.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Do you provide local references?</span>
+                            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Yes, we'll gladly provide the names and phone numbers of several of our clients in your neighborhood.</p>
+                                <p>We're proud of our work and our reputation. Don't hesitate to ask for references or check our reviews on Yelp, Google, Angie's List, and Houzz.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>What type of paint do you use?</span>
+                            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>We use only the highest quality paints from trusted brands like:</p>
+                                <ul>
+                                    <li>Sherwin-Williams</li>
+                                    <li>Benjamin Moore</li>
+                                    <li>Dunn-Edwards</li>
+                                </ul>
+                                <p>We recommend specific products based on your project needs, surface type, and budget. We never cut corners with cheap materials.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Do you offer a warranty on your work?</span>
+                            <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <div class="faq-answer-content">
+                                <p>Yes, we stand behind our work with a satisfaction guarantee. If you're not happy with any aspect of our work, we'll make it right.</p>
+                                <p>Specific warranty terms depend on the type of project and materials used, and will be detailed in your written contract.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" style="background: var(--white); padding: 80px 0; text-align: center;">
+        <div class="container">
+            <h2 style="margin-bottom: 20px;">Still Have Questions?</h2>
+            <p style="max-width: 600px; margin: 0 auto 30px; color: #666;">We're here to help! Contact us and we'll answer any questions you have about your painting project.</p>
+            <div>
+                <a href="contact.html" class="btn btn-primary" style="margin-right: 15px;">Contact Us</a>
+                <a href="tel:8003570775" class="btn btn-outline"><i class="fas fa-phone"></i> (800) 357-0775</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>About Us</h4>
+                    <p>Jacob Brothers' Painting is a family-owned professional painting contractor with over 20 years of European craftsmanship experience in Southern California.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Residential Painting</a></li>
+                        <li><a href="services.html">Commercial Painting</a></li>
+                        <li><a href="services.html">Interior Painting</a></li>
+                        <li><a href="services.html">Exterior Painting</a></li>
+                        <li><a href="services.html">Color Consultation</a></li>
+                        <li><a href="services.html">Drywall Repair</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt"></i> 6230 Wilshire Blvd. Suite #126, Los Angeles, CA 90048</li>
+                        <li><a href="tel:8003570775"><i class="fas fa-phone"></i> (800) 357-0775</a></li>
+                        <li><a href="mailto:arisghazarian@yahoo.com"><i class="fas fa-envelope"></i> arisghazarian@yahoo.com</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <p>Stay updated with our latest projects and special offers.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-yelp"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-houzz"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p style="color:white;">&copy; 2024 Jacob Brothers Painting. All Rights Reserved. | Designed with <i class="fas fa-heart" style="color: #e74c3c;"></i> by Christian Herencia</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- WhatsApp Button -->
+    <button class="whatsapp-btn" onclick="openWhatsApp()" aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat with us!</span>
+    </button>
+
+    <!-- Back to FAQ Categories -->
+    <button class="back-to-top-faq" onclick="scrollToMainFAQ()">
+        <i class="fas fa-arrow-up"></i> Back to FAQs
+    </button>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    
+    <!-- FAQ Specific Script -->
+    <script>
+        // FAQ Accordion
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqItems = document.querySelectorAll('.faq-item');
+            const backToTopBtn = document.querySelector('.back-to-top-faq');
+            
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const isActive = item.classList.contains('active');
+                        
+                        // Close all other items
+                        faqItems.forEach(otherItem => {
+                            otherItem.classList.remove('active');
+                        });
+                        
+                        // Toggle current item
+                        if (!isActive) {
+                            item.classList.add('active');
+                        }
+                    });
+                }
+            });
+            
+            // Show/hide back to FAQ button
+            window.addEventListener('scroll', () => {
+                const faqMain = document.getElementById('faq-main');
+                if (faqMain) {
+                    const rect = faqMain.getBoundingClientRect();
+                    if (rect.top < 100) {
+                        backToTopBtn.classList.add('visible');
+                    } else {
+                        backToTopBtn.classList.remove('visible');
+                    }
+                }
+            });
+        });
+        
+        // Scroll to category
+        function scrollToCategory(categoryId) {
+            const element = document.getElementById(categoryId);
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+        
+        // Scroll to main FAQ
+        function scrollToMainFAQ() {
+            const faqMain = document.getElementById('faq-main');
+            if (faqMain) {
+                faqMain.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
+        
+        // Filter FAQs
+        function filterFAQs() {
+            const input = document.getElementById('faqSearch');
+            const filter = input.value.toLowerCase();
+            const faqItems = document.querySelectorAll('.faq-item');
+            
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question span').textContent.toLowerCase();
+                const answer = item.querySelector('.faq-answer-content').textContent.toLowerCase();
+                
+                if (question.includes(filter) || answer.includes(filter)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+        
+        // WhatsApp function
+        function openWhatsApp() {
+            const phoneNumber = '18003570775';
+            const message = 'Hello, I have a question about your painting services.';
+            const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- BOF: ./templates/simple/business/photo_player_flash/xmlparams/show.body -->
+
+<!-- BOF: ./personal-templates/simple/generic/images -->
+<!-- Template Error: Function setValue has not been defined. -->
+<!-- EOF: ./personal-templates/simple/generic/images -->
+
+<images>
+
+<pic img="widgets/gen_253.1.jpg" preview="images/thumbs/Postcard.gif.jpg" comment="PICTURE PERFECT"/>
+
+<pic img="widgets/gen_254.1.jpg" preview="images/thumbs/Postcard2.gif.jpg" comment="THE VILLA"/>
+
+<pic img="http://162.215.248.39/images/ADOBE.jpg" preview="images/thumbs/ADOBE.jpg.jpg" comment="ADOBE BEFORE"/>
+
+<pic img="http://162.215.248.39/images/IMG_0007.jpg" preview="images/thumbs/IMG_0007.jpg.jpg" comment="ADOBE AFTER"/>
+
+<pic img="http://162.215.248.39/images/IMG_0013.jpg" preview="images/thumbs/IMG_0013.jpg.jpg" comment="PICTURE PERFECT"/>
+
+<pic img="http://162.215.248.39/images/Corrected1.jpg" preview="images/thumbs/Corrected1.jpg.jpg" comment="GLENDALE"/>
+
+<pic img="http://162.215.248.39/images/IMG_0002.jpg" preview="images/thumbs/IMG_0002.jpg.jpg" comment="THE VILLA"/>
+
+<pic img="http://162.215.248.39/images/IMG_0009.jpg" preview="images/thumbs/IMG_0009.jpg.jpg" comment="THE BUNGALOW BEFORE"/>
+
+<pic img="http://162.215.248.39/images/IMG_0010.jpg" preview="images/thumbs/IMG_0010.jpg.jpg" comment="THE BUNGALOW AFTER"/>
+
+<pic img="http://162.215.248.39/images/IMG_0005.jpg" preview="images/thumbs/IMG_0005.jpg.jpg" comment="THE RETREAT"/>
+
+<pic img="http://162.215.248.39/images/IMG_0012.jpg" preview="images/thumbs/IMG_0012.jpg.jpg" comment="THE ENCLAVE"/>
+
+
+<pic img="http://162.215.248.39/images/2nd bed.jpg" preview="images/thumbs/2nd bed.jpg.jpg" comment="Bedroom"/>
+
+<pic img="http://162.215.248.39/images/dining1.1.jpg" preview="images/thumbs/dining1.1.jpg.jpg" comment="Dining1.1"/>
+
+<pic img="http://162.215.248.39/images/Condo.jpg" preview="images/thumbs/Condo.jpg.jpg" comment="Condo"/>
+
+<pic img="http://162.215.248.39/images/bar.jpg" preview="images/thumbs/bar.jpg.jpg" comment="Bar"/>
+
+<pic img="http://162.215.248.39/images/den.jpg" preview="images/thumbs/den.jpg.jpg" comment="Den"/>
+
+<pic img="http://162.215.248.39/images/Dining.jpg" preview="images/thumbs/Dining.jpg.jpg" comment="Dining"/>
+
+<pic img="http://162.215.248.39/images/Entrance.jpg" preview="images/thumbs/Entrance.jpg.jpg" comment="Entrance"/>
+
+<pic img="http://162.215.248.39/images/Front door.jpg" preview="images/thumbs/Front door.jpg.jpg" comment="Front Door"/>
+
+<pic img="http://162.215.248.39/images/front.jpg" preview="images/thumbs/front.jpg.jpg" comment="Front"/>
+
+<pic img="http://162.215.248.39/images/guest bed.jpg" preview="images/thumbs/guest bed.jpg.jpg" comment="Guest Bedroom"/>
+
+<pic img="http://162.215.248.39/images/kitchen1.1.jpg" preview="images/thumbs/kitchen1.1.jpg.jpg" comment="Kitchen1.1"/>
+
+<pic img="http://162.215.248.39/images/Kitchen1.jpg" preview="images/thumbs/Kitchen1.jpg.jpg" comment="Kitchen"/>
+
+<pic img="http://162.215.248.39/images/Living room 1.1.jpg" preview="images/thumbs/Living room 1.1.jpg.jpg" comment="Living Room 1.1"/>
+
+<pic img="http://162.215.248.39/images/living room.jpg" preview="images/thumbs/living room.jpg.jpg" comment="Living Room"/>
+
+<pic img="http://162.215.248.39/images/living-kitchen.jpg" preview="images/thumbs/living-kitchen.jpg.jpg" comment="Living-Kitchen"/>
+
+<pic img="http://162.215.248.39/images/Master bed.jpg" preview="images/thumbs/Master bed.jpg.jpg" comment="Master Bed"/>
+
+<pic img="http://162.215.248.39/images/master.jpg" preview="images/thumbs/master.jpg.jpg" comment="Master"/>
+
+<pic img="http://162.215.248.39/images/slider.jpg" preview="images/thumbs/slider.jpg.jpg" comment="Slider"/>
+
+<pic img="http://162.215.248.39/images/study.jpg" preview="images/thumbs/study.jpg.jpg" comment="Study"/>
+
+<pic img="http://162.215.248.39/images/sun room.jpg" preview="images/thumbs/sun room.jpg.jpg" comment="Sunroom"/>
+
+<pic img="http://162.215.248.39/images/sun1.jpg" preview="images/thumbs/sun1.jpg.jpg" comment="Sunroom2"/>
+
+
+</images>
+<!-- EOF: ./templates/simple/business/photo_player_flash/xmlparams/show.body -->
+
